@@ -1,10 +1,10 @@
-# Shared Task: Sinhala NLP Resources
+# Sinhala-Text-Preprocessing-Resources
 
-A comprehensive repository containing resources, scripts, and notebooks for processing Sinhala text, with a focus on the Sri Lanka Constitution in Sinhala. This project demonstrates various NLP techniques including tokenization, stemming, suffix removal, word embeddings, and vectorization.
+A comprehensive repository containing resources, scripts, and notebooks for preprocessing Sinhala text, with a focus on the Sri Lanka Constitution in Sinhala. This project demonstrates various text preprocessing techniques including tokenization, stemming, suffix removal, word embeddings, and vectorization.
 
 ## 🚀 Project Overview
 
-This repository serves as a research and development platform for Sinhala Natural Language Processing tasks. The main corpus is the Sri Lanka Constitution in Sinhala, which has been processed through multiple preprocessing pipelines to create various linguistic resources and demonstrate different NLP approaches.
+This repository serves as a research and development platform for Sinhala text preprocessing tasks. The main corpus is the Sri Lanka Constitution in Sinhala, which has been processed through multiple preprocessing pipelines to create various linguistic resources and demonstrate different text preprocessing approaches.
 
 ## 📁 Repository Structure
 
@@ -67,20 +67,20 @@ pip install seaborn
 2. Install the required dependencies
 3. Launch Jupyter Notebook: `jupyter notebook`
 
-### 2. Notebook Workflow
+### 2. Text Preprocessing Workflow
 - Start with **`Suffix_removal.ipynb`** to understand text preprocessing
 - Use **`Sinh_Word2Vec.ipynb`** for word embedding analysis
 - Apply **`TF-IDF_Vectorization.ipynb`** for document vectorization
 - Generate reports with **`Create_PDF.ipynb`**
 
-### 3. Custom Processing
+### 3. Custom Preprocessing
 - Modify **`make_stem_dictionary.py`** for custom dictionary creation
 - Use the provided tokenizer resources for consistent text processing
 - Leverage the stem dictionary and suffix lists for text analysis
 
-## 🔬 Research Applications
+## 🔬 Text Preprocessing Applications
 
-This repository supports various NLP research areas:
+This repository supports various text preprocessing research areas:
 - **Morphological Analysis** - Suffix removal and stemming
 - **Word Embeddings** - Word2Vec training and analysis
 - **Document Vectorization** - TF-IDF and other vectorization techniques
